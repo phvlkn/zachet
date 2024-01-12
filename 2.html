@@ -1,38 +1,46 @@
 <!DOCTYPE html>
+
 <head>
     <title>1</title>
 </head>
+
 <style>
-    img{
+    img {
         height: 150px;
     }
-    .image-row{
+
+    .image-row {
         text-align: center;
+        height: 150px;
+        margin-top: 30px;
     }
-    h1{
+
+    h1 {
         text-align: center;
-        color:blue;
+        color: blue;
         font-weight: lighter;
     }
-    .first{
-        background-color: rgb(215, 192, 255);
-        font-weight: bold;
-    }
-    .sec{
-        background-color: lightgray;
-    }
-    table{
-        text-align: center;
-        width: 100%;
-    }
-    .col{
-        width: 20%;
-    }
-    td{
-        padding: 5px;
+
+    .content {
+        float: right;
         text-align: left;
+        width: 50%;
+    }
+
+    .poster {
+        width: 17%;
+        height: auto;
+        margin-left: 31%;
+        float: left;
+        padding-right: 10px;
+        border-right: 5px solid black;
+    }
+
+    .info {
+        height: 350px;
     }
 </style>
+
 <body>
     <div class="image-row">
         <img src="/1.jpg">
@@ -44,11 +52,22 @@
     </div>
 
     <h1>В бой идут одни старики</h1>
-    <br>
-    <div class="content">
-
+    <div class="info">
+        <img src="poster1.jpg" class="poster">
+        <div class="content">
+            <p>год 1973</p>
+            <p>страна СССР</p>
+            <p>режиссер Леонид Быков</p>
+            <p>сценарий Леонид Быков, Евгений Оноприенко, Александр Сацкий</p>
+            <p>директор фильма Николай Злочевский, Илья Фидман</p>
+            <p>оператор Владимир Войтенко</p>
+            <p>композитор Виктор Шевченко</p>
+            <p>художник Георгий Прокопец, Л. Коротенко</p>
+            <p>монтаж М. Зоровой</p>
+            <p>жанр драма, комедия, военный, ...</p>
+        </div>
     </div>
-    <br>
+
     <div class="image-row">
         <img src="/1.jpg">
         <img src="/2.jpg">
@@ -58,4 +77,5 @@
         <img src="/6.jpg">
     </div>
 </body>
+
 </html>
